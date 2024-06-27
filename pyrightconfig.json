@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.venv"
+  ],
+
+  "pythonVersion": "3.11",
+  "typeCheckingMode": "strict",
+  "useLibraryCodeForTypes": true,
+
+  "reportCallInDefaultInitializer": "warning",
+  "reportImplicitOverride": "warning",
+  "reportImplicitStringConcatenation": "error",
+  "reportImportCycles": "warning",
+  "reportMissingSuperCall": "warning",
+  "reportPropertyTypeMismatch": "error",
+  "reportMissingTypeStubs": "warning",
+  "reportShadowedImports": "warning",
+  "reportUnnecessaryTypeIgnoreComment": "warning",
+  "reportUnusedCallResult": "warning",
+}

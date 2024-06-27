@@ -1,0 +1,15 @@
+[tool.poetry]
+description = ""
+name        = "example"
+version     = "1.0.0"
+authors     = [""]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.369"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
