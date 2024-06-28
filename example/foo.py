@@ -1,5 +1,6 @@
 # pyright: reportImportCycles=false
-from typing import Any, TypedDict, Generic, TypeVar
+# from __future__ import annotations
+from typing import TypedDict, Generic, TypeVar
 from .bar import Baz
 
 T = TypeVar("T")
