@@ -1,6 +1,6 @@
 # pyright: reportImportCycles=false
 # from __future__ import annotations
-from typing import TypedDict, Generic, TypeVar
+from typing import Any, TypedDict, Generic, TypeVar
 from .foo import Foo
 from .bar import Bar
 
